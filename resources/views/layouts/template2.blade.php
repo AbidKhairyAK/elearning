@@ -8,7 +8,7 @@
 	<meta name="keywords" content="aplikasi,akademik,absis">
 	<meta name="author" content="bimadev">
 	<meta name="csrf-token" content="{{ csrf_token() }}">
-	<title>ABSIS UNBK - Aplikasi Akademik</title>
+	<title>Demo E-Learning</title>
 	<link href="{{ URL::asset('assets2/css/bootstrap.css') }}" rel="stylesheet">
 	<link href="{{ URL::asset('assets2/plugins/sw-bootstrap/css/highlight.css') }}" rel="stylesheet">
 	<link href="{{ URL::asset('assets2/plugins/sw-bootstrap/css/bootstrap3/bootstrap-switch.css') }}" rel="stylesheet">
@@ -43,8 +43,8 @@
 
 		<div class="top-navbar info-color" style="background: #3498db">
 			<div class="top-navbar-inner">
-				<div class="logo-brand" style="background: #3498db;">
-					<a href="/"><img src="{{ URL::asset('assets2/img/absis-logo2-blue.png')}}" alt="ABSIS logo" style="margin-top:13px"></a>
+				<div class="logo-brand" style="background: #3498db; padding-top: 5px;">
+					<a href="?p=home" style="color: white; font-size: 30px;">E-Learning</a>
 				</div>
 				<div class="top-nav-content">
 					<div class="btn-collapse-sidebar-left-2" id="notif" data-toggle="modal" data-target="#">

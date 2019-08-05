@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Login UNBK SMAN 3 Semarang</title>
+<title>Demo E-Learning</title>
 
 <link rel="stylesheet" media="screen" href="assets/css/reset.css" />
 <link rel="stylesheet" media="screen" href="assets/css/style.css" />
@@ -51,9 +51,9 @@ $(document).ready(function(){
 <body class="login">
     <div class="login-box">
         <div class="login-box-top">
-            <div class="login-logo">&nbsp;</div>        
-            <div class="login-hd">Login Tryout Ujian Nasional</div>
-            <div class="login-hd-sub">SMAN 3 SEMARANG</div>
+            <!-- <div class="login-logo">&nbsp;</div>         -->
+            <div class="login-hd">Demo E-Learning</div>
+            <div class="login-hd-sub">Pondok Informatika Al Madinah</div>
             <div class="message info">Masukan nama pengguna dan kata sandi anda : </div>
             <form role="form" method="POST" action="{{ url('/login') }}">
                 <p>
@@ -86,7 +86,7 @@ $(document).ready(function(){
                 </p>
             </form>
             <div id="linebreak"></div>
-            <ul><li><strong>Bantuan:</strong><span>Silahkan hubungi admin sekolah anda</span> </li></ul>
+            <!-- <ul><li><strong>Bantuan:</strong><span>Silahkan hubungi admin sekolah anda</span> </li></ul> -->
         </div>
     </div>
 </body>

@@ -6,7 +6,7 @@
 	<meta name="description" content="Aplikasi Akademik">
 	<meta name="keywords" content="aplikasi,akademik,absis">
 	<meta name="author" content="bimadev">
-	<title>ABSIS UNBK - Aplikasi Akademik</title>
+	<title>Demo E-Learning</title>
 	<link href="{{ URL::asset('assets2/css/bootstrap.min.css') }}" rel="stylesheet">
 	<link href="{{ URL::asset('assets2/plugins/sw-bootstrap/css/highlight.css') }}" rel="stylesheet">
 	<link href="{{ URL::asset('assets2/plugins/sw-bootstrap/css/bootstrap3/bootstrap-switch.css') }}" rel="stylesheet">
